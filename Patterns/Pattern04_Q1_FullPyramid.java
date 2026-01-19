@@ -2,6 +2,17 @@
 
     import java.util.Scanner;
 
+// Pattern 4 – Question 1
+// Name: Full Pyramid Pattern (Stars)
+// Input: n = 4
+// Output:
+//    *
+//   ***
+//  *****
+// *******
+// Approach: Spaces + stars using nested loops
+// Time Complexity: O(n^2)
+
     public class Pattern04_Q1_FullPyramid {
 
         static void printFullPyramid(int n)
